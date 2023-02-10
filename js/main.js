@@ -1,9 +1,9 @@
-function addtext() {
+document.getElementById('dodaj').onclick = function addtext() {
     document.getElementById("naglowek").innerHTML = "Teraz pojawił się tutaj nagłówek";
 
 }
 
-function removetext() {
+document.getElementById('usun').onclick = function removetext() {
     document.getElementById("naglowek").innerHTML = "";
 
 }
